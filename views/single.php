@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include('header.php');
+include('layouts\header.php');
 ?>
 <body>
 <div class="header-top-w3layouts">
@@ -124,7 +124,7 @@ include('header.php');
                     </div>
                 </div>
                 <div class="col-md-6 single-top-right">
-                    <h3 class="item_name"> يسمعون حسيسهآ</h3>
+                    <h3 class="item_name"> <?= $book['name'] ?> </h3>
                     <p>Processing Time : This Book will be shipped out within 2-3 working days. </p>
                     <div class="single-rating">
                         <ul>
