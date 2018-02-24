@@ -6,6 +6,13 @@ body {
 	background: #FFF;
 	font-family: 'open Sans', sans-serif;
 }
+
+.hoverImg{
+	opacity: 0.2;
+}
+
+
+
 body a {
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -315,7 +322,7 @@ display: inline-block;
 }
 .bb-left-agileits-w3layouts-inner{
 	  background:url(../images/bb1.jpg) no-repeat 0px 0px;   
-	background-size:cover;
+	background-size:contain;
 	min-height:500px;
 	-moz-transition: all 1s;
     -o-transition: all 1s;
@@ -2133,18 +2140,18 @@ p.w3-agile{
 		width: 28%;
 		float: left;
 	}
-	.bb-left-agileits-w3layouts-inner {
-		background: url(../images/bb1.jpeg) no-repeat -142px 0px;
-		background-size: cover;
-		min-height: 450px;
-	}
+	/*.bb-left-agileits-w3layouts-inner {*/
+		/*background: url(../images/bb1.jpeg) no-repeat -142px 0px;*/
+		/*background-size: cover;*/
+		/*min-height: 450px;*/
+	/*}*/
 	.bb-middle-top {
-		background: url(../images/bb2.jpeg) no-repeat -81px 0px;
+		/*background: url(../images/bb2.jpeg) no-repeat -81px 0px;*/
 		background-size: cover;
 		min-height: 210px;
 	}
 	.bb-middle-bottom {
-		background: url(../images/bb4.jpg) no-repeat -99px 0px;
+		background: url(../images/bb4.jpg) no-repeat;
 		background-size: cover;
 		min-height: 210px;
 	}
@@ -2152,7 +2159,7 @@ p.w3-agile{
 		min-height: 210px;
 	}
 	.bb-right-bottom {
-		background: url(../images/bb5.jpg) no-repeat -56px 0px;
+		background: url(../images/bb5.jpg) no-repeat;
 		background-size: cover;
 		min-height: 210px;
 	}
@@ -2716,9 +2723,11 @@ p.w3-agile{
 		margin-bottom:30px;
 	}
 	.bb-left-agileits-w3layouts-inner {
-		background: url(../images/bb1.jpeg) no-repeat 0px 0px;
+		/*background: url(../images/bb1.jpeg);*/
 		background-size: cover;
-		min-height: 300px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		/*min-height: 300px;*/
 	}
 	.bb-middle-agileits-w3layouts {
 		width: 55%;
@@ -2730,7 +2739,7 @@ p.w3-agile{
 		float: left;
 	}
 	.bb-middle-top {
-		background: url(../images/bb2.jpeg) no-repeat 0px 0px;
+		/*background: url(../images/bb2.jpeg) no-repeat 0px 0px;*/
 		background-size: cover;
 		min-height: 200px;
 	}
@@ -3014,6 +3023,8 @@ p.w3-agile{
 	}
 }
 @media screen and (max-width: 384px){
+
+
 	.ring-in {
 		position: relative;
 		width: 60%;
